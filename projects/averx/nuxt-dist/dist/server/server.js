@@ -104,7 +104,7 @@ module.exports =
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/_nuxt/";
+/******/ 	__webpack_require__.p = "/prayogshala/projects/averx/dist/_nuxt/";
 /******/
 /******/ 	// uncaught error handler for webpack runtime
 /******/ 	__webpack_require__.oe = function(err) {
@@ -3929,7 +3929,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(5).default
 module.exports.__inject__ = function (context) {
-  add("7e56e4e3", content, true, context)
+  add("e533993c", content, true, context)
 };
 
 /***/ }),
@@ -4938,10 +4938,10 @@ var external_vue_default = /*#__PURE__*/__webpack_require__.n(external_vue_);
 var external_node_fetch_ = __webpack_require__(31);
 var external_node_fetch_default = /*#__PURE__*/__webpack_require__.n(external_node_fetch_);
 
-// CONCATENATED MODULE: ./.nuxt/middleware.js
+// CONCATENATED MODULE: ./nuxt-dist/middleware.js
 const middleware = {};
-/* harmony default export */ var _nuxt_middleware = (middleware);
-// CONCATENATED MODULE: ./.nuxt/utils.js
+/* harmony default export */ var nuxt_dist_middleware = (middleware);
+// CONCATENATED MODULE: ./nuxt-dist/utils.js
  // window.{{globals.loadedCallback}} hook
 // Useful for jsdom testing or plugins (https://github.com/tmpvar/jsdom#dealing-with-asynchronous-script-loading)
 
@@ -5089,7 +5089,7 @@ async function setContext(app, context) {
       app,
       payload: context.payload,
       error: context.error,
-      base: '/',
+      base: '/prayogshala/projects/averx/dist/',
       env: {}
     }; // Only set once
 
@@ -5577,7 +5577,7 @@ function setScrollRestoration(newVal) {
     window.history.scrollRestoration = newVal;
   } catch (e) {}
 }
-// CONCATENATED MODULE: ./.nuxt/mixins/fetch.server.js
+// CONCATENATED MODULE: ./nuxt-dist/mixins/fetch.server.js
 
 
 
@@ -5648,7 +5648,7 @@ var external_vue_no_ssr_default = /*#__PURE__*/__webpack_require__.n(external_vu
 var external_vue_router_ = __webpack_require__(18);
 var external_vue_router_default = /*#__PURE__*/__webpack_require__.n(external_vue_router_);
 
-// CONCATENATED MODULE: ./.nuxt/router.scrollBehavior.js
+// CONCATENATED MODULE: ./nuxt-dist/router.scrollBehavior.js
 
 
 if (false) {}
@@ -5708,7 +5708,7 @@ if (false) {}
     });
   });
 });
-// CONCATENATED MODULE: ./.nuxt/router.js
+// CONCATENATED MODULE: ./nuxt-dist/router.js
 
 
 
@@ -5730,7 +5730,7 @@ external_vue_router_default.a.prototype.push = function push(location, onComplet
 external_vue_default.a.use(external_vue_router_default.a);
 const routerOptions = {
   mode: 'history',
-  base: decodeURI('/'),
+  base: decodeURI('/prayogshala/projects/averx/dist/'),
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior: router_scrollBehavior,
@@ -5748,7 +5748,7 @@ const routerOptions = {
 function createRouter() {
   return new external_vue_router_default.a(routerOptions);
 }
-// CONCATENATED MODULE: ./.nuxt/components/nuxt-child.js
+// CONCATENATED MODULE: ./nuxt-dist/components/nuxt-child.js
 /* harmony default export */ var nuxt_child = ({
   name: 'NuxtChild',
   functional: true,
@@ -5988,7 +5988,7 @@ var error_component = Object(componentNormalizer["a" /* default */])(
 
 installComponents_default()(error_component, {VApp: VApp_VApp})
 
-// CONCATENATED MODULE: ./.nuxt/components/nuxt.js
+// CONCATENATED MODULE: ./nuxt-dist/components/nuxt.js
 
 
 
@@ -6092,7 +6092,7 @@ installComponents_default()(error_component, {VApp: VApp_VApp})
   }
 
 });
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./.nuxt/components/nuxt-loading.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./nuxt-dist/components/nuxt-loading.vue?vue&type=script&lang=js&
 /* harmony default export */ var nuxt_loadingvue_type_script_lang_js_ = ({
   name: 'NuxtLoading',
 
@@ -6265,9 +6265,9 @@ installComponents_default()(error_component, {VApp: VApp_VApp})
   }
 
 });
-// CONCATENATED MODULE: ./.nuxt/components/nuxt-loading.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./nuxt-dist/components/nuxt-loading.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_nuxt_loadingvue_type_script_lang_js_ = (nuxt_loadingvue_type_script_lang_js_); 
-// CONCATENATED MODULE: ./.nuxt/components/nuxt-loading.vue
+// CONCATENATED MODULE: ./nuxt-dist/components/nuxt-loading.vue
 var nuxt_loading_render, nuxt_loading_staticRenderFns
 
 
@@ -6287,7 +6287,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
   false,
   nuxt_loading_injectStyles,
   null,
-  "946483d8"
+  "0e7b0c13"
   
 )
 
@@ -10398,7 +10398,7 @@ var default_component = Object(componentNormalizer["a" /* default */])(
 
 installComponents_default()(default_component, {VApp: VApp_VApp,VAppBar: VAppBar_VAppBar,VAppBarNavIcon: VAppBarNavIcon,VBtn: VBtn_VBtn,VContainer: VContainer,VFooter: VFooter_VFooter,VIcon: components_VIcon_VIcon,VList: VList_VList,VListItem: VList_VListItem,VListItemAction: VListItemAction,VListItemContent: VListItemContent,VListItemTitle: VListItemTitle,VMain: VMain_VMain,VNavigationDrawer: VNavigationDrawer_VNavigationDrawer,VSpacer: VSpacer["a" /* default */],VToolbarTitle: VToolbarTitle})
 
-// CONCATENATED MODULE: ./.nuxt/App.js
+// CONCATENATED MODULE: ./nuxt-dist/App.js
 
 
 
@@ -10619,7 +10619,7 @@ const layouts = {
     NuxtLoading: nuxt_loading
   }
 });
-// CONCATENATED MODULE: ./.nuxt/components/plugin.js
+// CONCATENATED MODULE: ./nuxt-dist/components/plugin.js
 
 const globalComponents = {};
 
@@ -10629,7 +10629,7 @@ for (const name in globalComponents) {
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/framework.js + 22 modules
 var framework = __webpack_require__(17);
 
-// CONCATENATED MODULE: ./.nuxt/vuetify/options.js
+// CONCATENATED MODULE: ./nuxt-dist/vuetify/options.js
 /* harmony default export */ var vuetify_options = ({
   "theme": {
     "dark": true,
@@ -10646,7 +10646,7 @@ var framework = __webpack_require__(17);
     }
   }
 });
-// CONCATENATED MODULE: ./.nuxt/vuetify/plugin.js
+// CONCATENATED MODULE: ./nuxt-dist/vuetify/plugin.js
 
 
 
@@ -10659,7 +10659,7 @@ external_vue_default.a.use(framework["a" /* default */], {});
   ctx.app.vuetify = vuetify;
   ctx.$vuetify = vuetify.framework;
 });
-// CONCATENATED MODULE: ./.nuxt/index.js
+// CONCATENATED MODULE: ./nuxt-dist/index.js
 
 
 
@@ -10871,8 +10871,8 @@ async function createApp(ssrContext, config = {}) {
   if (false) {} // Plugin execution
 
 
-  if (typeof /* Cannot get final name for export "default" in "./.nuxt/components/plugin.js" (known exports: , known reexports: ) */ undefined === 'function') {
-    await /* Cannot get final name for export "default" in "./.nuxt/components/plugin.js" (known exports: , known reexports: ) */ undefined(app.context, inject);
+  if (typeof /* Cannot get final name for export "default" in "./nuxt-dist/components/plugin.js" (known exports: , known reexports: ) */ undefined === 'function') {
+    await /* Cannot get final name for export "default" in "./nuxt-dist/components/plugin.js" (known exports: , known reexports: ) */ undefined(app.context, inject);
   }
 
   if (typeof vuetify_plugin === 'function') {
@@ -10911,7 +10911,7 @@ async function createApp(ssrContext, config = {}) {
 }
 
 
-// CONCATENATED MODULE: ./.nuxt/components/nuxt-link.server.js
+// CONCATENATED MODULE: ./nuxt-dist/components/nuxt-link.server.js
 
 /* harmony default export */ var nuxt_link_server = ({
   name: 'NuxtLink',
@@ -10927,7 +10927,7 @@ async function createApp(ssrContext, config = {}) {
     }
   }
 });
-// CONCATENATED MODULE: ./.nuxt/server.js
+// CONCATENATED MODULE: ./nuxt-dist/server.js
 
 
 
@@ -10972,7 +10972,7 @@ const createNext = ssrContext => opts => {
 
   opts.query = Object(external_querystring_["stringify"])(opts.query);
   opts.path = opts.path + (opts.query ? '?' + opts.query : '');
-  const routerBase = '/';
+  const routerBase = '/prayogshala/projects/averx/dist/';
 
   if (!opts.path.startsWith('http') && routerBase !== '/' && !opts.path.startsWith(routerBase)) {
     opts.path = server_urlJoin(routerBase, opts.path);
@@ -11081,14 +11081,14 @@ const createNext = ssrContext => opts => {
       return name;
     }
 
-    if (typeof _nuxt_middleware[name] !== 'function') {
+    if (typeof nuxt_dist_middleware[name] !== 'function') {
       app.context.error({
         statusCode: 500,
         message: 'Unknown middleware ' + name
       });
     }
 
-    return _nuxt_middleware[name];
+    return nuxt_dist_middleware[name];
   });
   await middlewareSeries(midd, app.context); // ...If there is a redirect or an error, stop the process
 
@@ -11139,14 +11139,14 @@ const createNext = ssrContext => opts => {
       return name;
     }
 
-    if (typeof _nuxt_middleware[name] !== 'function') {
+    if (typeof nuxt_dist_middleware[name] !== 'function') {
       app.context.error({
         statusCode: 500,
         message: 'Unknown middleware ' + name
       });
     }
 
-    return _nuxt_middleware[name];
+    return nuxt_dist_middleware[name];
   });
   await middlewareSeries(midd, app.context); // ...If there is a redirect or an error, stop the process
 

@@ -4,7 +4,8 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
-  
+  buildDir: 'nuxt-dist',
+
   router: {
     base: '/prayogshala/projects/averx/dist/'
   },
