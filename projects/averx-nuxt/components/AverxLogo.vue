@@ -1,3 +1,3 @@
 <template>
-<img src="~/assets/images/averx-transparent.png" />
+<img src="~/assets/media/averx-transparent.png" />
 </template>
