@@ -1,0 +1,14 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/Users/sailaja.nagireddy/repos/git/github/seekhna/prayogshala/projects/averx/pages/inspire.vue",
+    "chunkName": "pages/inspire"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/sailaja.nagireddy/repos/git/github/seekhna/prayogshala/projects/averx/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
