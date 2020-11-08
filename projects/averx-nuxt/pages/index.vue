@@ -2,7 +2,7 @@
 <div class="container">
     <div class="video">
         <video class="pills" autoplay muted loop>
-            <source src="~/assets/media/videoof.mp4" type="video/mp4" />
+            <source src="~/assets/media/pharma.mp4" type="video/mp4" />
         </video>
     </div>
 </div>
