@@ -6,9 +6,9 @@ export default {
 
   buildDir: 'nuxt-dist',
 
-//  router: {
-//    base: '/prayogshala/projects/averx/dist/'
-//  },
+  router: {
+    base: '/prayogshala/projects/averx/dist/'
+  },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
